@@ -1478,7 +1478,7 @@ export default function Portfolio() {
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={achievement.image || "/placeholder.svg"}
-                    alt={achievement.title}
+                    
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
