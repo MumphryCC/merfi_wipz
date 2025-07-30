@@ -27,6 +27,7 @@ import {
   Calendar,
   MapPin,
   Zap,
+  Facebook,
 } from "lucide-react"
 import Image from "next/image"
 
@@ -1682,6 +1683,13 @@ export default function Portfolio() {
                 label: "LinkedIn",
                 value: "linkedin.com/in/mumphry",
                 href: "https://www.linkedin.com/in/mumphry-caparas-6b4a3336b/",
+                color: "from-blue-500 via-cyan-600 to-sky-600",
+              },
+              {
+                icon: Facebook,
+                label: "Facebook",
+                value: "facebook.com/mumphry",
+                href: "https://www.facebook.com/mumphry.caparas",
                 color: "from-blue-500 via-cyan-600 to-sky-600",
               },
               /*{
