@@ -2170,7 +2170,7 @@ export default function Portfolio() {
                     <div className="relative w-full h-80 rounded-2xl overflow-hidden">
                       <Image
                         src={selectedAchievement.image || "/placeholder.svg"}
-                        alt={selectedAchievement.title}
+                        /*alt={selectedAchievement.title}*/
                         fill
                         className="object-cover"
                       />
