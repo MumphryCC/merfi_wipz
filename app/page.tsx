@@ -158,7 +158,7 @@ const projects: Project[] = [
       "/pit16.png?height=280&width=700&text=Dark+Mode+Theme",
     ],
     fullDescription:
-      "FitFusion is a web-based gym management system designed to streamline operations of fitness centers. It handles membership management, staff tracking, workout plans, billing, and attendance monitoring — all in one centralized platform.",
+      "FitFusion is a web-based gym management system designed to streamline operations of fitness centers. It handles membership management, staff tracking, workout plans, billing, and attendance monitoring, all in one centralized platform.",
     keyFeatures: [
       "Member Management",
       "Workout & Diet Plans",
