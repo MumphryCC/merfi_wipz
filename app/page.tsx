@@ -79,7 +79,7 @@ const projects: Project[] = [
     title: "EyeSee - Development of a Low-cost Lens System for Self-vision Assessment",
     description: "CPE406D (Thesis) - Practice and Design 2.",
     techStack: ["Raspberry Pi 4B", "DRV8825", "NEMA 17", "Python", "Tkinter GUI", "Firebase"],
-    github: "https://github.com/mumphry/ecommerce-platform",
+    Globe: "https://drive.google.com/file/d/1-HgKeOtio_Todh0EWCnTXheomr9K0jOk/view?usp=sharing",
     images: [
       "/eye1.png?height=300&width=700&text=E-Commerce+Homepage",
       "/eye2.png?height=280&width=700&text=Product+Catalog+Grid",
@@ -109,7 +109,7 @@ const projects: Project[] = [
     title: "BiyaHero - Your Boat Commutes Hero, Tracking at Zero",
     description: "CPE410 - Technopreneurship",
     techStack: ["Figma"],
-    github: "https://github.com/mumphry/task-manager",
+    Globe: "https://github.com/mumphry/task-manager",
     images: [
       "/hero1.png?height=280&width=700&text=Task+Dashboard+Overview",
       "/hero2.png?height=280&width=700&text=Project+Management+Board",
@@ -138,7 +138,7 @@ const projects: Project[] = [
     title: "FitFusion - Where Sweat Meets Success!",
     description: "CPE312 - Elective1 and CPE315 - Elective2",
     techStack: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    github: "https://github.com/mumphry/weather-dashboard",
+    Globe: "https://github.com/mumphry/weather-dashboard",
     images: [
       "/pit1.png?height=280&width=700&text=Current+Weather+Display",
       "/pit2.png?height=280&width=700&text=7-Day+Forecast+Cards",
@@ -175,7 +175,7 @@ const projects: Project[] = [
     title: "8-Bit CPU Design",
     description: "CPE402/L - Computer Architechture and Organization",
     techStack: ["Logism"],
-    github: "https://github.com/mumphry/social-dashboard",
+    Globe: "https://github.com/mumphry/social-dashboard",
     images: [
       "/log1.png?height=280&width=700&text=Analytics+Overview+Dashboard",
       "/log2.png?height=280&width=700&text=Engagement+Metrics+Charts",
@@ -206,7 +206,7 @@ const projects: Project[] = [
     title: "MapaChika - Connect and Share Your World",
     description: "CPE403 - Elective 3: Mobile App Development.",
     techStack: ["Flutterflow", "Firebase", "Google Map API"],
-    github: "https://github.com/mumphry/portfolio",
+    Globe: "https://github.com/mumphry/portfolio",
     images: [
       "/map1.png?height=280&width=700&text=Hero+Section+Animation",
       "/map2.png?height=280&width=700&text=About+Me+Section",
@@ -231,7 +231,7 @@ const projects: Project[] = [
     title: "ENFIT: An Enhanced Tracking and Safety",
     description: "CPE304/L - Software Design.",
     techStack: ["Figma"],
-    github: "https://github.com/mumphry/chat-app",
+    Globe: "https://github.com/mumphry/chat-app",
     images: [
       "/en1.png?height=280&width=700&text=Chat+Interface+Design",
       "/en2.png?height=280&width=700&text=Group+Chat+Management",
@@ -252,7 +252,7 @@ const projects: Project[] = [
     title: "E-IMS: Empowering Sari-Sari Stores with Efficient Inventory Control",
     description: "CPE206L - Data Structure and Algorithm",
     techStack: ["MySQL", "Java Swing"],
-    github: "https://github.com/mumphry/expense-tracker",
+    Globe: "https://github.com/mumphry/expense-tracker",
     images: [
       "/ims1.png?height=280&width=700&text=Expense+Dashboard+Overview",
       "/ims2.png?height=280&width=700&text=Budget+Planning+Interface",
@@ -280,7 +280,7 @@ const projects: Project[] = [
     title: "WordSpace: Just Do It, Just TYPE It",
     description: "CPE202L - Object Oriented Programming.",
     techStack: ["Python", "Pygame"],
-    github: "https://github.com/mumphry/expense-tracker",
+    Globe: "https://github.com/mumphry/expense-tracker",
     images: [
       "/py1.png?height=280&width=700&text=Expense+Dashboard+Overview",
       "/py2.png?height=280&width=700&text=Budget+Planning+Interface",
@@ -317,7 +317,7 @@ const projects: Project[] = [
     title: "ResQ: A New Way to Review",
     description: "CPE104L - Programming Logic and Design.",
     techStack: ["C++"],
-    github: "https://github.com/mumphry/fitness-tracker",
+    Globe: "https://github.com/mumphry/fitness-tracker",
     images: [
       "/c1.png?height=280&width=700&text=Workout+Dashboard+Stats",
       "/c2.png?height=280&width=700&text=Exercise+Library+Grid",
@@ -2164,8 +2164,8 @@ export default function Portfolio() {
                               : "bg-gradient-to-r from-cyan-500/20 via-blue-500/20 to-indigo-500/20 hover:from-cyan-500/30 hover:via-blue-500/30 hover:to-indigo-500/30 text-cyan-700 border border-cyan-400/30"
                           }`}
                         >
-                          <className="w-5 h-5" />
-                          View on Github
+                          <Globe className="w-5 h-5" />
+                          See More
                           <ExternalLink className="w-4 h-4" />
                         </motion.a>
                       </div>
