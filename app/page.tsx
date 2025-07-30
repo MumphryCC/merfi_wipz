@@ -1478,7 +1478,7 @@ export default function Portfolio() {
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={achievement.image || "/placeholder.svg"}
-                    
+                    alt={achievement.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -1581,7 +1581,7 @@ export default function Portfolio() {
                       isDarkMode ? "text-white group-hover:text-cyan-300" : "text-gray-800 group-hover:text-cyan-600"
                     }`}
                   >
-                    {achievement.title}
+                    
                   </h3>
                   <p className={`text-xs leading-relaxed ${isDarkMode ? "text-white/60" : "text-gray-600/70"}`}>
                     {achievement.description}
