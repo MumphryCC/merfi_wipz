@@ -93,7 +93,7 @@ const projects: Project[] = [
       "/eye10.png?height=280&width=700&text=Mobile+Responsive",
     ],
     fullDescription:
-      "EyeSee is a self-assessment lens system designed for low-cost vision testing in underserved communities. Built with a combination of software and hardware, the system allows users to rotate a set of trial lenses via a touchscreen interface powered by a Raspberry Pi. The platform offers a guided visual assessment process, stepper motor precision control, and real-time feedback for users who already know their eye grade. EyeSee is developed with accessibility and affordability in mind, especially for rural areas with limited access to optometric services.",
+      "EyeSee is a self-assessment lens system designed for low-cost vision testing in underserved communities. Built with a combination of software and hardware, the system allows users to rotate a set of trial lenses via a clickscreeb interface powered by a Raspberry Pi. The platform offers a guided visual assessment process, stepper motor precision control, and real-time feedback for users who already know their eye grade. EyeSee is developed with accessibility and affordability in mind, especially for rural areas with limited access to optometric services.",
     keyFeatures: [
       "Low-Cost Vision Assessment System",
       "Addresses Uncorrected Refractive Errors",
