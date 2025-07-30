@@ -2164,8 +2164,8 @@ export default function Portfolio() {
                               : "bg-gradient-to-r from-cyan-500/20 via-blue-500/20 to-indigo-500/20 hover:from-cyan-500/30 hover:via-blue-500/30 hover:to-indigo-500/30 text-cyan-700 border border-cyan-400/30"
                           }`}
                         >
-                          <Github className="w-5 h-5" />
-                          View on GitHub
+                          <className="w-5 h-5" />
+                          View Files
                           <ExternalLink className="w-4 h-4" />
                         </motion.a>
                       </div>
