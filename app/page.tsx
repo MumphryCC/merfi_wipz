@@ -2170,7 +2170,7 @@ export default function Portfolio() {
                     <div className="relative w-full h-80 rounded-2xl overflow-hidden">
                       <Image
                         src={selectedAchievement.image || "/placeholder.svg"}
-                        /*alt={selectedAchievement.title}*/
+                        alt={selectedAchievement.title}
                         fill
                         className="object-cover"
                       />
@@ -2265,7 +2265,7 @@ export default function Portfolio() {
 
                     {/* Rest of the achievement detail content remains the same */}
                     <h3 className={`text-2xl font-bold ${isDarkMode ? "text-white" : "text-gray-800"}`}>
-                      {selectedAchievement.title}
+                      {/*{selectedAchievement.title}*/}
                     </h3>
                     <p className={`text-base ${isDarkMode ? "text-white/70" : "text-gray-700/70"}`}>
                       {selectedAchievement.description}
