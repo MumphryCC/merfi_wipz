@@ -2155,7 +2155,7 @@ export default function Portfolio() {
                         <motion.a
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
-                          href={selectedProject.github}
+                          href={selectedProject.Globe}
                           target="_blank"
                           rel="noopener noreferrer"
                           className={`inline-flex items-center gap-3 px-6 py-3 rounded-xl font-semibold transition-all duration-300 ${
