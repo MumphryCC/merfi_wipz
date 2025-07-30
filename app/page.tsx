@@ -2165,7 +2165,7 @@ export default function Portfolio() {
                           }`}
                         >
                           <className="w-5 h-5" />
-                          View Files
+                          View on Github
                           <ExternalLink className="w-4 h-4" />
                         </motion.a>
                       </div>
