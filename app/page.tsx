@@ -986,7 +986,7 @@ export default function Portfolio() {
               <motion.a
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
                 whileTap={{ scale: 0.95 }}
-                href="https://drive.google.com/file/d/1oRZNmAZ4ymcUv44hFA-WNQt_RGwzmek6/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1CbqHBm5jmjNbn8soX08pjrIVuUCX5XkD/view?usp=sharing"
                 target="_blank"
                 className={`px-8 py-4 backdrop-blur-sm border text-white rounded-full font-semibold flex items-center justify-center gap-2 transition-all duration-300 ${
                   isDarkMode
