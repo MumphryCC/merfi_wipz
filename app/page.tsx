@@ -2002,7 +2002,7 @@ export default function Portfolio() {
                               : "text-gray-800 group-hover:text-cyan-600"
                           }`}
                         >
-                          {/*{achievement.title}*/}
+                          {achievement.title}
                         </h3>
                         <p
                           className={`text-sm mb-3 leading-relaxed ${isDarkMode ? "text-white/60" : "text-gray-600/70"}`}
