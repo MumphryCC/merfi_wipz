@@ -379,7 +379,7 @@ const experienceData: Experience[] = [
     id: 1,
     position: "System Administrator - IT Support",
     company: "Allied Care Experts (ACE) Malolos Doctors",
-    period: "June 2024 - July 2024",
+    period: "June 2024 - August 2024",
     role: "Intern",
     logo: "/ace.png?height=60&width=60&text=ACE",
     description: "Managed database systems and provided IT support for healthcare operations.",
