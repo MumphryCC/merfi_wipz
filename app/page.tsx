@@ -377,7 +377,7 @@ const educationData: Education[] = [
 const experienceData: Experience[] = [
   {
     id: 1,
-    position: "Database Administrator - IT Support",
+    position: "System Administrator - IT Support",
     company: "Allied Care Experts (ACE) Malolos Doctors",
     period: "June 2024 - July 2024",
     role: "Intern",
