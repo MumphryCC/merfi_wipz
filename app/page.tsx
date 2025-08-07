@@ -996,7 +996,7 @@ export default function Portfolio() {
                 rel="noreferrer"
               >
                 <Download className="w-5 h-5" />
-                
+                Download CV
               </motion.a>
             </motion.div>
           </motion.div>
